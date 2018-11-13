@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hy.springboot.proto</groupId>
+	<artifactId>proto-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>proto-parent</name>
+	<description></description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+		<swagger2.version>2.9.2</swagger2.version>
+		<orika.version>1.5.2</orika.version>
+		<web3j.version>3.4.0</web3j.version>
+		<bcprov-jdk15on.version>1.60</bcprov-jdk15on.version>
+		<spring-security-oauth2.version>2.3.3.RELEASE</spring-security-oauth2.version>
+
+		<!-- Based on Spring Boot 2.0.4.RELEASE -->
+		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
+
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.4.RELEASE</version>
+	</parent>
+
+	<modules>
+		<module>tech-rabbitmq-producer</module>
+		<module>tech-rabbitmq-consumer</module>
+		<module>tech-rabbitmq-common</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- inner dependencies -->
+			<dependency>
+				<groupId>com.hy.springboot.proto</groupId>
+				<artifactId>tech-rabbitmq-common</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			
+			<!--spring cloud -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!--swagger ui -->
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger2</artifactId>
+				<version>${swagger2.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger-ui</artifactId>
+				<version>${swagger2.version}</version>
+			</dependency>
+
+			<!-- bcprov-jdk15on -->
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcprov-jdk15on</artifactId>
+				<version>${bcprov-jdk15on.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcprov-ext-jdk15on</artifactId>
+				<version>${bcprov-jdk15on.version}</version>
+			</dependency>
+
+
+			<!-- web3j -->
+			<dependency>
+				<groupId>org.web3j</groupId>
+				<artifactId>core</artifactId>
+				<version>${web3j.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.web3j</groupId>
+				<artifactId>crypto</artifactId>
+				<version>${web3j.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.web3j</groupId>
+				<artifactId>utils</artifactId>
+				<version>${web3j.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.security.oauth</groupId>
+				<artifactId>spring-security-oauth2</artifactId>
+				<version>${spring-security-oauth2.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.reactivex.rxjava2</groupId>
+				<artifactId>rxjava</artifactId>
+				<version>2.2.2</version>
+			</dependency>
+
+
+		</dependencies>
+	</dependencyManagement>
+</project>
