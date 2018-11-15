@@ -1,6 +1,4 @@
-![image](https://github.com/weixuan2008/dingding-monolith/blob/master/dingding-monolith-master/core/dingding-micro-service/src/main/resources/static/images/order.PNG)
-
-#dingding rabbitmq demo
+# dingding rabbitmq demo
 
 This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
 
@@ -36,3 +34,8 @@ From the command line with Maven installed:
 	$ access the below url
 	  eg. http://localhost:15672/#/queues
 	
+
+
+Architecture diagram:
+-------------------
+![image](https://github.com/weixuan2008/dingding-monolith/blob/master/dingding-monolith-master/core/dingding-micro-service/src/main/resources/static/images/order.PNG)
