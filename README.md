@@ -4,7 +4,7 @@ This is a simple demo that using springboot tech stack, mainly focusing on usage
 
 
 
-1. Requirements: 
+Requirements: 
 -------------------
 1. maven installed
 2. Rabbitmq installed 
@@ -12,7 +12,7 @@ This is a simple demo that using springboot tech stack, mainly focusing on usage
 
 
 
-2. Getting started:
+Getting started:
 -------------------	
 From the command line with Maven installed:
 	1. For producer
@@ -36,6 +36,6 @@ From the command line with Maven installed:
 	
 
 
-3. Architecture diagram:
+Architecture diagram:
 -------------------
 ![image](https://github.com/weixuan2008/dingding-monolith/blob/master/dingding-monolith-master/core/dingding-micro-service/src/main/resources/static/images/order.PNG)
