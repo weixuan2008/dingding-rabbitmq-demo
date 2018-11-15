@@ -48,4 +48,5 @@ Architecture diagram:
 The official link for confirm detail
 -------------------
 http://www.rabbitmq.com/confirms.html
+
 https://docs.spring.io/spring-amqp/reference/pdf/spring-amqp-reference.pdf
