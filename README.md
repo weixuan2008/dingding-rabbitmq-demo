@@ -6,9 +6,10 @@ This is a simple demo that using springboot tech stack, mainly focusing on usage
 
 Requirements: 
 -------------------
-1. maven installed
-2. Rabbitmq installed 
-3. rabbitmq user added that will be used by below demo.
+1. This tutorial assumes RabbitMQ is installed and running on localhost on standard port (5672). In case you use a different host, port or credentials, connections settings would require adjusting.
+2. rabbitmq user added that will be used by below demo.
+3. maven installed
+
 
 
 
@@ -40,4 +41,10 @@ From the command line with Maven installed:
 
 Architecture diagram:
 -------------------
-![image](https://github.com/weixuan2008/dingding-monolith/blob/master/dingding-monolith-master/core/dingding-micro-service/src/main/resources/static/images/order.PNG)
+![image](https://github.com/weixuan2008/dingding-rabbitmq-demo/blob/master/dingding%20rabbitmq.png)
+
+
+The official link for confirm detail
+-------------------
+http://www.rabbitmq.com/confirms.html
+
