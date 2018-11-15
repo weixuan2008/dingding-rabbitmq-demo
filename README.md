@@ -1,6 +1,6 @@
 # dingding rabbitmq demo
 
-	This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
+This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
 
 
 
