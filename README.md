@@ -6,8 +6,9 @@ This is a simple demo that using springboot tech stack, mainly focusing on usage
 
 Requirements: 
 -------------------
-1. This tutorial assumes RabbitMQ is installed and running on localhost on standard port (5672). In case you use a different host, port or credentials, connections settings would require adjusting.
-2. rabbitmq user added that will be used by below demo.
+1. This tutorial assumes RabbitMQ is installed and running on localhost on standard port (5672). 
+   In case you use a different host, port or credentials, connections settings would require adjusting.
+2. Add appropriate rabbitmq user that will be used by below demo.
 3. maven installed
 
 
