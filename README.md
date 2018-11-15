@@ -1,6 +1,7 @@
 # Rabbitmq demo
 
 This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
+Delivery processing acknowledgements from consumers to RabbitMQ are known as acknowledgements in AMQP, and broker acknowledgements to publishers are a protocol extension called publisher confirms.
 
 
 Architecture diagram:
