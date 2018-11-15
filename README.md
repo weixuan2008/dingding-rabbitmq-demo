@@ -3,6 +3,10 @@
 This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
 
 
+Architecture diagram:
+-------------------
+![image](https://github.com/weixuan2008/dingding-rabbitmq-demo/blob/master/dingding%20rabbitmq.png)
+
 
 Requirements: 
 -------------------
@@ -39,10 +43,6 @@ From the command line with Maven installed:
 	  eg. http://localhost:15672/#/queues
 	
 
-
-Architecture diagram:
--------------------
-![image](https://github.com/weixuan2008/dingding-rabbitmq-demo/blob/master/dingding%20rabbitmq.png)
 
 
 The official link for confirm detail
