@@ -16,6 +16,7 @@ Getting started:
 -------------------	
 
 From the command line with Maven installed:
+
 	1. For producer
 	$ cd tech-rabbitmq-producer
 	$ change properties configuration according to your env
