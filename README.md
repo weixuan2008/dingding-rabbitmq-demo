@@ -1,10 +1,10 @@
 # dingding rabbitmq demo
 
-This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
+	This is a simple demo that using springboot tech stack, mainly focusing on usage of producer confirm and consumer acknowledgements.
 
 
 
-Requirements: 
+1. Requirements: 
 -------------------
 1. maven installed
 2. Rabbitmq installed 
@@ -12,7 +12,7 @@ Requirements:
 
 
 
-Getting started:
+2. Getting started:
 -------------------	
 From the command line with Maven installed:
 	1. For producer
@@ -36,6 +36,6 @@ From the command line with Maven installed:
 	
 
 
-Architecture diagram:
+3. Architecture diagram:
 -------------------
 ![image](https://github.com/weixuan2008/dingding-monolith/blob/master/dingding-monolith-master/core/dingding-micro-service/src/main/resources/static/images/order.PNG)
