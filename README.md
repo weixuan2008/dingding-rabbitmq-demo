@@ -14,6 +14,7 @@ Requirements:
 
 Getting started:
 -------------------	
+
 From the command line with Maven installed:
 	1. For producer
 	$ cd tech-rabbitmq-producer
@@ -23,7 +24,7 @@ From the command line with Maven installed:
 	
 
 
-	2. For producer
+	2. For consumer
 	$ cd tech-rabbitmq-consumer
 	$ change properties configuration according to your env
 	$ mvn clean package -Dmaven.test.skip=true
